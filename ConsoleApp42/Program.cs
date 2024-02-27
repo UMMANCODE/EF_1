@@ -5,10 +5,10 @@ using System.Linq;
 
 using (AppDbContext db = new()) {
     // Create
-    //db.Add(new Brand("Samsung"));
-    //db.Add(new Brand("Apple"));
-    //db.Add(new Brand("Huawei"));
-    //db.SaveChanges();
+    db.Add(new Brand("Samsung"));
+    db.Add(new Brand("Apple"));
+    db.Add(new Brand("Huawei"));
+    db.SaveChanges();
 
     // Read
     Console.WriteLine("Before:");
